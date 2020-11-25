@@ -1,0 +1,5 @@
+#!name=EHR打卡
+#!desc=公司EHR系统打卡时自动把定位锁定在国贸中心
+
+[Script]
+EHRCheckIn.js = type=http-request,pattern=^http:\/\/app\.itgholding\.com\.cn:8383\/gmkg\/app\/mobile\/HandlerMyTDAdd\.ashx\?rand=.*,script-path=https://raw.githubusercontent.com/cyjahappy/EHR_CheckIn/master/Surge/Script/EHR_CheckIn.js,script-update-interval=0
