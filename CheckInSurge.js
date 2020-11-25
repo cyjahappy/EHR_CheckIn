@@ -28,5 +28,5 @@ function getCurrentDate(format) {
         return hour + ":" + min + ":" + sec;
     }   
   }
-$notification.post("尊敬的元钧", "您在" + getCurrentDate(3) , "打卡完成");
+$notification.post("尊敬的元钧","" , "打卡完成");
 $done({url});
