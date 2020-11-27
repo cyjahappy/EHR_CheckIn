@@ -1,5 +1,2 @@
-#!name= Wifi助理
-#!desc= 开启WIFI助理
-
 [General]
 wifi-assist = true
