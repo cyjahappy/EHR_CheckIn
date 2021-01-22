@@ -1,5 +1,2 @@
-#!name= 控股服务器Snell
-#!desc= 可连接被行为管理限制的链接
-
 [Proxy]
 控股服务器Snell = snell, 192.168.19.69, 48590, psk=z1XdwAAtL3EA2LqwVtXusiTTg6lXX8g, obfs=http, version=2
